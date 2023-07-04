@@ -1,0 +1,9 @@
+body {
+    background-image: url(dress.jpg);
+    background-size: 100%; background-repeat: no-repeat;
+    font-size: larger;
+    color:rgb(0, 31, 23);
+}
+a {
+    font-size: 1.5pc;
+}

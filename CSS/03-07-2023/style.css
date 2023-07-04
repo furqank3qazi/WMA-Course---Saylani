@@ -1,0 +1,32 @@
+div > h1 {
+    color: rgb(0, 0, 0);
+    /* font-family:fantasy */
+    text-shadow: 2px 2px 2px rgb(238, 196, 8);
+    font-size: 3pc;
+}
+
+div > p {
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline;
+    line-height: 5;
+    word-spacing: 2pc;
+    text-align: center;
+    background-color: orange;
+    font-size: 1.2pc;
+        
+}
+@font-face {
+    font-family: "Poppins" ;
+    src: url(fonts/Poppins-BlackItalic.ttf);
+}
+
+h1 {
+    font-family: "Poppins";
+}
+p::first-line{
+    color: blue;
+}
