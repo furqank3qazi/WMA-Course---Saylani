@@ -3,15 +3,23 @@
     width: 100%;
     height: 90px;
     padding-left: 110px;
-    padding-top: 10px;
+    padding-top: 3px;
+    padding-bottom: 5px;
     }
 body {
     margin: 0px;
+    background-color: rgb(0, 0, 0);
 }
 @font-face {
     font-family: Hind;
     src: url(Font/HindSiliguri-Regular.ttf);
 }
+
+@font-face {
+    font-family: Ultra;
+    src: url(Font/Ultra-Regular.ttf);
+}
+
 .menu>li {
     display: inline-block;
     font-size: 17px;
@@ -35,5 +43,205 @@ body {
     border-color: white;
     padding: 14px;
     font-size: 15px;
+    border-style: solid;
+}
+.header2 {
+    font-size: 36px;
+    font-family: hind;
+    color: white;
+}
+.special {
+    font-family: ultra;
+    color: white;
+    display: inline-block;
+    font-size: 40px;
+}
+.header2link {
+    font-size: 19px;
+    color: darkgray;
+    }
+.header2link>img {
+    background-color: white;
+    margin-inline: -195px;
+    margin-left: 230px;
+    padding: 20px;
+    width: 210px;
+    height: 95px;
+}
+newbutton {
+    border-radius: 150px;
+    color: white;
+    border-color: rgb(54, 54, 54);
+    border-style:solid;
+    padding-top:15PX ;
+    padding-bottom:15PX ;
+    padding-right: 50PX;
+    padding-left:50PX ;
+    margin: -115px;
+    margin-left: 230px;
+    font-family: hind;
+    font-size: 14px;
+    border-width: 1px;
+    ;
+    
+    }
+
+.islamabad {
+    background-color: rgba(255, 255, 255, 0.06);
+    height: 1325px;
+    width: 100%;
+    text-align: center;
+    
 }
 
+.Restaurant-Franchises {
+    color: white;
+    font-family: ultra;
+    font-size: 40px;
+    text-align: center;
+}
+
+.islamabad>p {
+    color: white;
+    font-size: 50px;
+    font-family: hind;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.islamabad>p1 {
+    font-size: 19px;
+    color: darkgray;
+    text-align: center;
+
+    
+}
+p2 {
+    font-size: 19px;
+    color: darkgray;
+    
+}
+
+.branches {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.branches>h1 {
+    color: red;
+    font-size: 18px;
+    font-family: hind;
+    display: inline-block;
+}
+.branches>img {
+    margin-right: 150px;
+}
+.islamabad>button {
+    border-radius: 90px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    border-style: solid;
+    margin-left: -150px;
+    
+}
+.button>fa-solid fa-circle-arrow-right {
+    height: 900px;
+}
+.branches>p {
+    color: white;
+    font-size: 30px;
+    font-family: hind;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+       
+    
+}
+.branch {
+    color: white;
+    font-family: ultra;
+    font-size: 30px;
+    text-align: left;
+}
+.header2link2>img {
+    background-color: rgb(0, 0, 0);
+    padding: -10px;
+    width: 360px;
+    height: 250px;
+    border: 0px;
+    margin-left: 0px;
+    margin-inline: 30px;
+    
+}
+.Express {
+    margin-left: 5px;
+    display: inline-block;
+    height: 350px;
+}
+
+.express1 {
+    display: inline-block;
+    margin-inline: 55px;
+    text-align: center;
+
+}
+
+.express1>h1 {
+    font-size: 16px;
+    font-family: hind;
+    color: red;
+}
+
+.express1>p1 {
+    font-family: ultra;
+    font-size: 26px;
+    color: white;
+}
+
+p4 {
+    font-family: hind;
+    font-size: 15px;
+    color: rgb(201, 201, 201);
+
+}
+.express1>p1 {
+    display: inline-block;
+}
+.express1>p {
+    font-size: 26px;
+    font-family: hind;
+    color: white;
+    display: inline-block;
+}
+newbutton1 {
+        border-radius: 150px;
+        color: white;
+        border-color: rgb(255, 255, 255);
+        border-style:solid;
+        padding-top:15PX ;
+        padding-bottom:15PX ;
+        padding-right: 50PX;
+        padding-left:50PX ;
+        font-family: hind;
+        font-size: 16px;
+        border-width: 0.10px;
+}
+newbutton2 {
+    border-radius: 150px;
+    color: white;
+    background-color: #28a745;
+    border-color: rgb(255, 255, 255);
+    border-style:solid;
+    padding-top:10PX ;
+    padding-bottom:10PX ;
+    padding-right: 30PX;
+    padding-left: 30PX ;
+    font-family: hind;
+    font-size: 16px;
+    border-width: 0.10px;

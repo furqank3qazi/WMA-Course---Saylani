@@ -1,0 +1,536 @@
+@font-face {
+    font-family: sofia-pro;
+    src: url(fonts/Fonts/sofiapro-light.otf);
+}
+
+@media only screen and (min-width:900px) {
+
+
+
+.navbar {
+    background-color: #0065c3;
+}
+.nav-item {
+    margin-right: 2.75rem;
+    font-family: sofia-pro;
+    font-size: .887rem;
+    cursor: pointer;
+    font-weight: 400;
+    font-weight: bold;
+ }
+
+
+.nav-item > a {
+    color: white !important;
+}
+.navbar-brand {
+    margin-right: 50px;
+}
+.pepsi-btn {
+    font-size: 0.85em;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: sofia-pro;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 2px 25px;
+    margin-left: 400px;
+     
+}
+
+@-webkit-keyframes bounceIn {
+
+    0%,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3)
+    }
+
+    20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1)
+    }
+
+    40% {
+        -webkit-transform: scale3d(.9, .9, .9);
+        transform: scale3d(.9, .9, .9)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03)
+    }
+
+    80% {
+        -webkit-transform: scale3d(.97, .97, .97);
+        transform: scale3d(.97, .97, .97)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1)
+    }
+}
+
+@keyframes bounceIn {
+
+    0%,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3)
+    }
+
+    20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1)
+    }
+
+    40% {
+        -webkit-transform: scale3d(.9, .9, .9);
+        transform: scale3d(.9, .9, .9)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03)
+    }
+
+    80% {
+        -webkit-transform: scale3d(.97, .97, .97);
+        transform: scale3d(.97, .97, .97)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1)
+    }
+}
+
+@-webkit-keyframes rotateIn {
+    0% {
+        -webkit-transform: rotate(-200deg);
+        transform: rotate(-200deg);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1
+    }
+}
+
+@keyframes rotateIn {
+    0% {
+        -webkit-transform: rotate(-200deg);
+        transform: rotate(-200deg);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1
+    }
+}
+
+
+
+.pepsi-btn:hover {
+    background-color: white;
+    color: #0065c3;
+    -webkit-animation-duration: .75s;
+    animation-duration: .75s;
+    -webkit-animation-duration: calc(var(--animate-duration)*0.75);
+    animation-duration: calc(var(--animate-duration)*0.75);
+    -webkit-animation-name: bounceIn !important;
+    animation-name: bounceIn !important;
+}
+
+.logo:hover {
+    -webkit-animation-name: rotateIn;
+    animation-name: rotateIn;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    animation-duration: 0.25s;
+}
+/* .box {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: absolute;
+    z-index: 10; */
+
+}
+@media only screen and (max-width:992px) {
+    .nav-item {
+        text-align: center;
+    }
+}
+body {
+    background-color: #0065c3;
+
+}
+
+.main-container {
+    height: 670px;
+    width: 100%;
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    display: flex;
+    
+    
+}
+
+.bottle > img {
+    width: 813px;
+    height: 590px;
+    margin-left: -125px;
+    margin-top: 80px;
+    ;
+}
+
+.unlock > img {
+    width: 488px;
+    height: 306px;
+    margin-left: -50px;
+    margin-top: 80px;
+
+}
+.unlock > .pepsi-btn {
+    margin: 30px;
+    font-size: 0.92em;
+    padding: 5px 35px;
+}
+
+.unlock > p,a1 {
+    text-align: center;
+    width: 425px;
+    font-size: .7rem;
+    color: white;
+    }
+
+.second-container {
+        height: 670px;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+}
+
+.zero-sugar > img {
+    height: 100%;
+    width: 100%;
+    margin-top: -80px;
+}
+
+.zero-sugar1 > img {
+    margin-left: -370px;
+    /* position: absolute; */
+    margin-top: 40px;
+    
+}
+
+.zero-taste {
+    margin-top: 50px;
+    margin-left: -50px;
+}
+
+.try-it {
+    margin-top: 330px;
+    margin-left: -380px;
+}
+
+.video1 {
+    margin-top: 380px;
+    margin-left: -420px;
+}
+
+
+.third-container {
+    height: 670px;
+    width: 100%;
+    background-image: url(images/pepsi-nitro.png);
+    background-repeat: no-repeat;
+    /* display: flex; */
+}
+
+.nitro > .pepsi-btn {
+    margin-left: 830px;
+    margin-top: 460px;
+    font-size: 0.95em;
+    padding: 7px 40px;
+}    
+
+.fourth-container {
+    display: flex;
+    
+}
+
+.left {
+    align-items: left;
+    width: 30%;
+    
+}
+
+.left > img {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 40px;
+    width: 105%;
+    height: 240px;
+
+}
+
+.right {
+    align-items: right;
+    width: 70%;
+    height: 100%;
+    background-image: url(images/fourth-three.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right > img {
+    width: 520px;
+    margin-top: 400px;
+    margin-left: 420px;
+}
+
+.left > p {
+    font-family: sofia-pro;
+    color: white;
+    font-size: .95rem;
+    font-weight: 400;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.fifth-container {
+    height: 670px;
+    width: 100%;
+}
+
+.sixth-container > video {
+    width: 100%;
+}
+
+.sixth-container {
+    display: flex;
+}
+
+.video-content {
+    position: absolute;
+    background-color: #0065c3;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    margin-top: 700px;
+   
+}
+
+.seventh-container {
+    margin-top: -60px;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
+
+.seventh-container > img {
+    width: 100%;
+}
+
+.eighth-container {
+    width: 100%;
+    margin-top: 650px;
+    display: flex;
+}
+
+.eighth-container > img {
+    width: 100%;
+}
+
+.flavors > .pepsi-btn {
+    margin-top: 400px;
+    margin-left: -1200px;
+}
+
+@font-face {
+    font-family: cervo-neue;
+    src: url(fonts/Fonts/Demo_Fonts/Fontspring-DEMO-cervoneue-boldneue.otf);
+}
+
+.nineth-container {
+    width: 100%;
+    background-color: white;
+   
+}
+
+.nineth-container > h1 {
+    font-family: cervo-neue;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    color: #0065c3;
+}
+
+.social-platforms > img {
+    width: 250px;
+    height: 260px;
+    margin-inline: -2px;
+    
+}
+
+.social-platforms-logo > img {
+    width: 30px;
+    height: 30px;
+    margin-top: -90px;
+    margin-inline: 110px;
+    
+}
+
+.social-platforms, .social-platforms-logo {
+    /* display: flex; */
+    
+}
+
+@keyframes swing {
+    20% {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg)
+    }
+
+    40% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg)
+    }
+
+    60% {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg)
+    }
+
+    80% {
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg)
+    }
+
+    to {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+}
+
+.twitter:hover, .facebook:hover, .instagram:hover, .youtube:hover, .tiktok:hover {
+    -webkit-transform-origin: top center;
+    transform-origin: top center;
+    -webkit-animation-name: swing !important;
+    animation-name: swing !important;
+}
+
+.tenth-container {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.nav-item2 {
+    margin-right: 0px;
+    margin-left: 20px;
+    font-family: sofia-pro;
+    font-size: .980rem;
+    cursor: pointer;
+    font-weight: 800 !important;
+    font-weight: bold;
+    padding: 5px 5px;
+    padding-inline: 40px;
+    
+}
+
+.nav-item2 > a {
+    color: white !important;
+    padding: 1px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.subscribe > .pepsi-btn {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    white-space: nowrap;
+    margin-top: -30px;
+    margin-left: 120px;
+    font-size: 1em;
+}
+
+.social-platforms-logo2 > a > img {
+    width: 30px;
+    height: 30px;
+    margin-top: -290px;
+    margin-inline: 10px;
+}
+
+.social-platforms-logo2 {
+    margin-left: 1055px;
+    z-index: 1;
+    position: absolute;
+}
+}
+
+
+/* @media only screen and (max-width:450px) {
+    .bottle > img, .unlock > img {
+    }
+    }
+    } */
+}
+
+/* @media only screen and (min-width:350px) {
+    .main-container, .second-container, .third-container, .fourth-container, .fifth-container, .sixth-container, .seventh-container, .eighth-container, .nineth-container, .tenth-container {
+        width: 700px;
+        height: 30%;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .main-container, .second-container, .third-container, .fourth-container, .fifth-container, .sixth-container, .seventh-container, .eighth-container, .nineth-container, .tenth-container {
+        width: 1000px;
+        height: 50%;
+    }
+}
+
+@media only screen and (min-width:1100px) {
+    .main-container, .second-container, .third-container, .fourth-container, .fifth-container, .sixth-container, .seventh-container, .eighth-container, .nineth-container, .tenth-container {
+        width: 100%;
+        height: 100%;
+    }
+} */
