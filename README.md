@@ -7,4 +7,4 @@ SALT N PEPPER BY CSS:
 https://saltnpepperbyfurqanqazi.netlify.app
 
 PEPSI WEBSITE CSS + BOOTSTRAP + ANIMATION
-https://pepsibyfurqanqaazi.netlify.app
+https://pepsibyfurqanqazi.netlify.app
