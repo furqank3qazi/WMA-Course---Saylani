@@ -11,3 +11,7 @@ https://pepsibyfurqanqazi.netlify.app
 
 ADDED ALERT WEBSITE MADE ON JAVASCRIPT
 https://alertwebsitebyfurqanqazi.netlify.app
+
+ADDED JAVASCRIPT 2ND ASSIGNMENT
+https://jsassignment2byfurqanqazi.netlify.app
+
