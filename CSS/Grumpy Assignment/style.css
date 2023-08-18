@@ -136,6 +136,99 @@
     margin-top: 440px;
 }
 
+
+.container-2 {
+    margin-top: 630px;
+    background-image: url(images/second-background.png);
+    background-repeat: no-repeat;
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 60px;
+
+}
+.container-2 > h1 {
+   display: flex;
+   justify-content: center;
+   font-size: 82px;
+   font-family: fidel;
+   color: white;
+   padding-bottom: 40px;
+   padding-top: 40px;
+
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto-Light.ttf);
+}
+.left-p-1 {
+    font-family: roboto;
+    font-size: 27px;
+    color: white;
+    font-weight: bold;
+    
+
+}
+
+.container-3 {
+    background-color: #2f559d;
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    color: white;
+    font-family: fidel;
+    
+}
+
+.left-section-3, .right-section-3 > h3 {
+    font-size: 42px;
+}
+
+.left-section-3 {
+    padding-left: 100px;
+    font-size: 36px !important;
+}
+
+.right-section-3 {
+    padding-left: 150px;
+    color: #7bd1ff;
+}
+
+.left-section-3 > p {
+    
+    display: inline-block;
+    
+}
+
+h3 {
+    color: #7bd1ff !important;
+}
+
+.heading-2 {
+    color: white;
+    font-size: 64px;
+}
+
+.number {
+    color: white !important;
+}
+
+
+
+.head-3 {
+    display: flex;
+    justify-content: center;
+    font-size: 82px;
+   font-family: fidel;
+   color: white;
+   background-color: #2f559d;
+   padding-top: 50px;
+   padding-bottom: 80px;
+   margin-top: -10px;
+   
+}
+
 @media only screen and (max-width:480px) {
 .navbar-brand > img {
     width: 120px;
