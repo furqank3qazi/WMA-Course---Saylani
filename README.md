@@ -15,3 +15,7 @@ https://alertwebsitebyfurqanqazi.netlify.app
 ADDED JAVASCRIPT 2ND ASSIGNMENT
 https://jsassignment2byfurqanqazi.netlify.app
 
+ADDED JAVASCRIPT 3RD ASSIGNMENT
+https://3rdassignmentbyfurqan.netlify.app
+
+

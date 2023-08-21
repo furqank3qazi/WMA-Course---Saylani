@@ -125,19 +125,23 @@ document.write(
     +"</table>"
 )
 
-if(add > (subtract,multiply,divide)){
+if((add > subtract) && (add > multiply) && (add > divide)){
     document.write("Addition value is the highest value in the above table")
 }
 
-if(subtract > (add,multiply,divide)){
+else if((subtract > add) && (subtract > multiply) && (subtract > divide)){
     document.write("Subtraction value is the highest value in the above table")
 }
 
-if(multiply > (add,subtract,divide)){
+else if((multiply > add) && (multiply > subtract) && (multiply > divide)){
     document.write("Multiplication value is the highest value in the above table")
 }
 
-if(divide > (add,subtract,multiply)){
+// else if((divide > add && subtract && multiply)){
+//     document.write("Division value is the highest value in the above table")
+// }
+
+else {
     document.write("Division value is the highest value in the above table")
 }
     
