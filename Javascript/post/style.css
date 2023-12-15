@@ -28,9 +28,10 @@
 }
 
 .post-buttons {
-    width: 600px;
+    max-width: 600px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     
 }
 

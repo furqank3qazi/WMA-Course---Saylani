@@ -6,7 +6,7 @@ body {
 }
 
 #main {
-    width: 450px;
+    width: 170px;
     height: 200px;
     border: 3px solid rgb(97, 93, 93);
     padding: 80px;
@@ -31,6 +31,8 @@ body {
     border: 3px solid rgb(97, 93, 93);
     border-radius: 20px;
     padding: 7px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 * {
