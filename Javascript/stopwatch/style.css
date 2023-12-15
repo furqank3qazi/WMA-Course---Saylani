@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#main {
+    width: 450px;
+    height: 200px;
+    border: 3px solid rgb(97, 93, 93);
+    padding: 80px;
+    padding-bottom: 150px;
+}
+
+#options {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    }
+
+#stopwatch, #timer {
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 12px;
+    border-radius: 50px;
+}
+
+#buttons > button{
+    font-size: 18px;
+    border: 3px solid rgb(97, 93, 93);
+    border-radius: 20px;
+    padding: 7px;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

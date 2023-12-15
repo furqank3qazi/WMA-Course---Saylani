@@ -1,4 +1,4 @@
-https://furqanqaziassignments.netlify.app/
+https://furqanqaziportfolio.netlify.app/
 
 POEMS SITE BY CSS :
 https://poemsbyfurqan.netlify.app
