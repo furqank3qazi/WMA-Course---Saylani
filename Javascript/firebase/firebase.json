@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "qazicorp",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
