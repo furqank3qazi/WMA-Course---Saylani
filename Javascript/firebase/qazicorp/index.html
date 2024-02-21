@@ -1,36 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="newstyle.css">
+    <script src="https://kit.fontawesome.com/001ad36cdb.js" crossorigin="anonymous"></script>
 </head>
-    <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-    </div>
-    <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Password</label>
 
-      <input type="password" class="form-control" id="password">
-      <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
-
-      <input type="password" class="form-control" id="password2">
-
-    </div>
-    </div>
-    <button id="registerBtn" type="submit" class="btn btn-primary">Submit</button>
-<link rel="stylesheet" href="style.css">
 <body>
-    
-<h1>New website with firebase</h1>
+    <div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">
+                    <img src="images/logo.png" width="100" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li></li>
+                    </ul>
+                    <div class="d-flex gap-3" role="search">
+                        <a href="register.html"><button class="btn btn-primary">Register</button></a>
+                        <a href="login.html"><button class="btn btn-outline-primary">Login</button></a>
 
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="p-5 text-center" id="page-spinner">
+            <div class="spinner-border text-success page-spinner" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+        <div id="product-list" class="row px-5 py-2">
+            <!-- <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/bopp-tapes.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Carton Packing BOPP Tape</h5>
+                        <p class="card-text">All sizes of Carton Packing BOPP Tape available</p>
+                    </div>
 
+                    <p style="margin-left:12px">
+                        <span class="badge rounded-pill text-bg-success">1 Inch</span>
+                        <span class="badge rounded-pill text-bg-success">2 Inch</span> <span
+                            class="badge rounded-pill text-bg-success">3 Inch</span>
+                    </p>
+                    <div class="card-body">
+                        <a href="order.html" class="btn btn-outline-primary">View All</a>
+                    </div>
+                </div>
 
+            </div> -->
+            <!-- <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/printed-tape.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Printed Tapes</h5>
+                        <p class="card-text">Logo Printed, Customized Print for branding</p>
+                    </div>
+
+                    <p style="margin-left:12px">
+                        <span class="badge rounded-pill text-bg-success">Single Color</span>
+                        <span class="badge rounded-pill text-bg-success">Double Color</span>
+                    </p>
+                    <div class="card-body">
+                        <a href="order.html" class="btn btn-outline-primary">View All</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/kraft-paper-tape.jpeg" height="275px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Kraft Paper Tape</h5>
+                        <p class="card-text">All customized sizes of Kraft Paper Tape available</p>
+                    </div>
+
+                    <p style="margin-left:12px">
+                        <span class="badge rounded-pill text-bg-success">Self Adhesive</span>
+                        <span class="badge rounded-pill text-bg-success">Water Activated</span>
+                    </p>
+                    <div class="card-body">
+                        <a href="order.html" class="btn btn-outline-primary">View All</a>
+                    </div>
+                </div>
+
+            </div> -->
+
+        </div>
+
+    </div>
     <script src="app.js" type="module"></script>
 </body>
+
 </html>
