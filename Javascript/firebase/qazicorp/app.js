@@ -70,10 +70,15 @@ const getAllCategories = async () => {
 
 onAuthStateChanged(auth, (user)=>{
   if(user ||
-    location.pathname.indexOf("product-category") !== -1 || location.pathname === "index.html")
+    location.pathname.indexOf("add-product-category") !== -1 || location.pathname === "/")
     {
+      console.log(location.pathname)
       console.log("running")
     getAllCategories()
+  }
+
+  else{
+    console.log(location.pathname)
   }
 })
 
