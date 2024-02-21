@@ -69,8 +69,8 @@ const getAllCategories = async () => {
 // })
 
 onAuthStateChanged(auth, (user)=>{
-  if(user ||
-    location.pathname.indexOf("add-product-category") !== -1 || location.pathname === "./")
+  if(
+    (user && location.pathname.indexOf("add-product-category") !== -1) || location.pathname === "/")
     {
       console.log(location.pathname)
       console.log("running")
@@ -81,6 +81,19 @@ onAuthStateChanged(auth, (user)=>{
     console.log(location.pathname)
   }
 })
+
+// if(user ||
+//   location.pathname.indexOf("add-product-category") !== -1 || location.pathname === "./" || location.pathname === "/javascript/firebase/qazicorp/")
+//   {
+//     console.log(location.pathname)
+//     console.log("running")
+//   getAllCategories()
+// }
+
+// else{
+//   console.log(location.pathname)
+// }
+// })
 
 
 
